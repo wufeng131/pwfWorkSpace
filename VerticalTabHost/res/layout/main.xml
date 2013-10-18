@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.test.widget.MyTabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabhost"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    >
+    <RelativeLayout
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent">
+       <!--  修改相对布局的位置即可以将标签栏放到右侧  -->
+	    <com.test.widget.MyTabWidget
+	        android:id="@+id/tabs" 
+	        android:layout_width="50dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        />
+	    <FrameLayout
+	        android:id="@+id/tabcontent"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent" 
+	        android:layout_toRightOf="@id/tabs">
+	        <TextView android:id="@+id/view1"
+		        android:background="#0000FF"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:text="tabs_1_tab_1"/>
+		
+		    <TextView android:id="@+id/view2"
+		        android:background="#ff0000"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:text="tabs_1_tab_2"/>
+		
+		    <TextView android:id="@+id/view3"
+		        android:background="#00FF00"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:text="tabs_1_tab_3"/>
+	    </FrameLayout>
+    </RelativeLayout>
+</com.test.widget.MyTabHost>
