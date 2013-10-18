@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>     
+<selector xmlns:android="http://schemas.android.com/apk/res/android">   
+  <!-- ´¥ľʱ²¢Ȓµ±ǰ´°¿ڴ¦Ԛ½»»¥״̬ -->    
+  <item android:state_pressed="true" android:state_window_focused="true" android:drawable= "@drawable/silent_indicator_off" />  
+  <!--  ´¥ľʱ²¢ȒûԐ»񶃽¹µ䗴̬ -->    
+  <item android:state_pressed="true" android:state_focused="false" android:drawable="@drawable/silent_indicator_off" />    
+  <!--ѡאʱµō¼Ƭ±³¾°-->    
+  <item android:state_selected="true" android:drawable="@drawable/silent_indicator_on" />     
+  <!--»񶃽¹µ䊱µō¼Ƭ±³¾°-->    
+  <item android:state_focused="true" android:drawable="@drawable/silent_indicator_off" />    
+  <!-- ´°¿ۃ»Ԑ´¦Ԛ½»»¥ʱµı³¾°ͼƬ -->    
+  <item android:drawable="@drawable/silent_indicator_off" />   
+</selector> 
