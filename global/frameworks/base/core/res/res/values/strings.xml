@@ -2631,9 +2631,9 @@
     <string name="upload_file_size_too_large">Your upload file is too large, divided into small files please</string>
     <string name="cant_open_airplane_mode_when_phone_busy">Can not open Airplane mode, phone is busy now.</string>
 <!-- add by pengwufeng start -->
-	<string name="global_data_net_title">Data Mode</string>
-	<string name="global_data_net_msg_on">Data Mode is ON</string>
-	<string name="global_data_net_msg_off">Data Mode is OFF</string>
+	<string name="global_data_net_title">Data network mode</string>
+	<string name="global_data_net_msg_on">Data network mode activated</string>
+	<string name="global_data_net_msg_off">Data network mode deactivated</string>
 	<string name="global_profiles_silent">Mute</string>
 	<string name="global_profiles_vibrate">Vibrate</string>
 	<string name="global_profiles_normal">Sound</string>
